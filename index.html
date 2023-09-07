@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        h1{
+            color: #6e1a5d;
+        }
+        #e1,#e2,#e3,#e4,#e5,#e6 {
+            font-size: 25px;
+        } 
+          .cancelbtn,.signupbtn{
+            height: 45px;
+            width: 200px;
+          } 
+          #items {
+            height: 45px;
+            width: 200px;
+          }  
+          #i1,#i2,#i3,#i4,#i5,#i6,#birthday{
+             height: 30px;
+          } 
+          form{
+            padding-left: 500px;
+          }
+        
+    </style>
+</head>
+<body>
+    <form action="action_page.php>">
+        <h1> Sign-Up </h1>
+            <h2> Please Fill the details given below </h2>
+            <hr>
+        <div class="container">
+            <label for = "First Name" style="color: #6e1a5d;" id="e4"><b>FIRST NAME</b></label><br><br>
+            <input type="Last name" placeholder="enter your name" size="70" id="i1" required/>
+            <br>
+            <br>
+            <label for = "First Name" style="color: #6e1a5d;" id="e4"><b>LAST NAME</b></label><br><br>
+            <input type="Last name" placeholder="enter your name" size="70" id="i2" required/>
+            <br>
+            <br>
+            <label for="date of birth" style="color: #6e1a5d;" id="e4"><b>D.O.B</b></label><br><br>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <br>
+            <label for = "email" style="color: #6e1a5d;" id="e1"><b>E-mail</b></label><br><br>
+            <input type="e-mail" placeholder="e-mail" name="mail" size="70" id="i3" required/>
+            <br>
+            <br>
+            <label for = "contact" style="color: #6e1a5d;" id="e6"><b>CONTACT NUMBER</b></label><br><br>
+            <input type="contact" placeholder="enter your contact number" name="contact" size="70" id="i4" required/>
+            <br>
+            <br>
+            <label for = "password" style="color: #6e1a5d;" id="e2"><b>PASSWORD</b></label><br><br>
+            <input type="password" placeholder="password" name="password" size="70" id="i5" required/>
+            <br>
+            <br>
+            <label for = "confirm Password" style="color: #6e1a5d;" id="e3"><b>CONFIRM PASSWORD</b></label><br><br>
+            <input type="Password" placeholder="Re-enter your password" name="password" size="70" id="i6"/>
+            <br>
+            <br>
+            <label for = "state" style="color: #6e1a5d;" id="e5"><b>STATE</b></label><br><br>
+
+            <select id="items">
+                <option value="1">Andra Pradesh</option>
+                <option value="2">Karnataka</option>
+                <option value="3">Kerala</option>
+                <option value="4">Tamil Nadu</option>
+                <option value="5">Telangana</option>
+            </select>
+               <br><br>
+               <p>Have An Account ? <a href="login.html" style="color: #6e1a5d;">LOGIN HERE</a> </p> 
+            <div class="container2">
+                <button type="button" class="cancelbtn" style="color: #6e1a5d;" >Cancel</button>
+                <button type="submit" class="signupbtn" style="color: #6e1a5d;"  >Sign Up</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
